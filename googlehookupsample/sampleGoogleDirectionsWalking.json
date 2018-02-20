@@ -1,0 +1,186 @@
+{
+  "geocoded_waypoints": [
+    {
+      "geocoder_status": "OK",
+      "place_id": "ChIJqf9uCYtZwokRQAfh-_WuFqw",
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "geocoder_status": "OK",
+      "place_id": "ChIJu1PNn6lZwokRHx2_eabv-Bs",
+      "types": [
+        "premise"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "bounds": {
+        "northeast": {
+          "lat": 40.7488124,
+          "lng": -73.98456329999999
+        },
+        "southwest": {
+          "lat": 40.7216523,
+          "lng": -74.0044023
+        }
+      },
+      "copyrights": "Map data ©2016 Google",
+      "legs": [
+        {
+          "distance": {
+            "text": "2.2 mi",
+            "value": 3531
+          },
+          "duration": {
+            "text": "44 mins",
+            "value": 2656
+          },
+          "end_address": "7 W 34th St, New York, NY 10001, USA",
+          "end_location": {
+            "lat": 40.7488124,
+            "lng": -73.9854478
+          },
+          "start_address": "300 W Broadway, New York, NY 10013, USA",
+          "start_location": {
+            "lat": 40.7216523,
+            "lng": -74.0044023
+          },
+          "steps": [
+            {
+              "distance": {
+                "text": "0.4 mi",
+                "value": 706
+              },
+              "duration": {
+                "text": "9 mins",
+                "value": 554
+              },
+              "end_location": {
+                "lat": 40.72699859999999,
+                "lng": -73.9998762
+              },
+              "html_instructions": "Head <b>northeast</b> on <b>W Broadway</b> toward <b>Grand St</b>",
+              "polyline": {
+                "points": "impwFn~tbMwAiA{@q@o@i@uAiAq@i@GGo@g@cEeDqFiE}E{DUQ"
+              },
+              "start_location": {
+                "lat": 40.7216523,
+                "lng": -74.0044023
+              },
+              "travel_mode": "WALKING"
+            },
+            {
+              "distance": {
+                "text": "0.3 mi",
+                "value": 467
+              },
+              "duration": {
+                "text": "6 mins",
+                "value": 350
+              },
+              "end_location": {
+                "lat": 40.730581,
+                "lng": -73.9972758
+              },
+              "html_instructions": "Continue onto <b>LaGuardia Pl</b>",
+              "polyline": {
+                "points": "wnqwFfbtbM_EaDUSoFkEKIKKoB}A]QOMGEMCG@I?G@E@IBOL"
+              },
+              "start_location": {
+                "lat": 40.72699859999999,
+                "lng": -73.9998762
+              },
+              "travel_mode": "WALKING"
+            },
+            {
+              "distance": {
+                "text": "194 ft",
+                "value": 59
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 42
+              },
+              "end_location": {
+                "lat": 40.7310252,
+                "lng": -73.99729049999999
+              },
+              "html_instructions": "Turn <b>right</b> toward <b>5th Ave</b>",
+              "maneuver": "turn-right",
+              "polyline": {
+                "points": "cerwF~qsbMEKGGIEIEI?I@I@IFGJGH"
+              },
+              "start_location": {
+                "lat": 40.730581,
+                "lng": -73.9972758
+              },
+              "travel_mode": "WALKING"
+            },
+            {
+              "distance": {
+                "text": "1.4 mi",
+                "value": 2214
+              },
+              "duration": {
+                "text": "27 mins",
+                "value": 1645
+              },
+              "end_location": {
+                "lat": 40.7484456,
+                "lng": -73.98456329999999
+              },
+              "html_instructions": "Turn <b>right</b> onto <b>5th Ave</b>",
+              "maneuver": "turn-right",
+              "polyline": {
+                "points": "}grwF`rsbMkA}@wA{@oA{@uBwAwBsAuByA_C_B}BuAoCiB_@UKIyA_A}B_BsBwAuBsAuBsAuBuAsBuA{BuAgCeBq@e@SQeAq@KGYSYSo@a@}BwA}B{AQMgBiAyB{A}BwA{BwA{B}AyBuAgCeB"
+              },
+              "start_location": {
+                "lat": 40.7310252,
+                "lng": -73.99729049999999
+              },
+              "travel_mode": "WALKING"
+            },
+            {
+              "distance": {
+                "text": "279 ft",
+                "value": 85
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 65
+              },
+              "end_location": {
+                "lat": 40.7488124,
+                "lng": -73.9854478
+              },
+              "html_instructions": "Turn <b>left</b> onto <b>W 34th St</b><div style=\"font-size:0.9em\">Destination will be on the right</div>",
+              "maneuver": "turn-left",
+              "polyline": {
+                "points": "ytuwFnbqbMgApD"
+              },
+              "start_location": {
+                "lat": 40.7484456,
+                "lng": -73.98456329999999
+              },
+              "travel_mode": "WALKING"
+            }
+          ],
+          "traffic_speed_entry": [],
+          "via_waypoint": []
+        }
+      ],
+      "overview_polyline": {
+        "points": "impwFn~tbMgQoNeTyP}GuFoB}A]QWSUAQ@ODOLEKQMSESBQRGHkA}@gDwBmFkDuFyDmG_Ek@_@wE_DiFkD{MuIyDkCyAcAoBqA{FsDyBwAoNiJaG{DgApD"
+      },
+      "summary": "5th Ave",
+      "warnings": [
+        "Walking directions are in beta.    Use caution – This route may be missing sidewalks or pedestrian paths."
+      ],
+      "waypoint_order": []
+    }
+  ],
+  "status": "OK"
+}

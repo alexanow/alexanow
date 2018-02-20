@@ -1,0 +1,198 @@
+{
+    "languageModel": {
+        "invocationName": "train or boot",
+        "intents": [
+            {
+                "name": "AMAZON.CancelIntent",
+                "slots": [],
+                "samples": []
+            },
+            {
+                "name": "AMAZON.HelpIntent",
+                "slots": [],
+                "samples": []
+            },
+            {
+                "name": "AMAZON.StopIntent",
+                "slots": [],
+                "samples": []
+            },
+            {
+                "name": "RecommendationIntent",
+                "slots": [
+                    {
+                        "name": "direction",
+                        "type": "direction",
+                        "samples": [
+                            "{direction}",
+                            "I'm going {direction}",
+                            "I'm heading {direction}",
+                            "I'm going to {direction}",
+                            "The {direction} bus",
+                            "The {direction} train"
+                        ]
+                    },
+                    {
+                        "name": "station",
+                        "type": "station",
+                        "samples": [
+                            "{station}",
+                            "the {station}",
+                            "at {station}",
+                            "in {station}",
+                            "the one in {station}",
+                            "{station} station"
+                        ]
+                    },
+                    {
+                        "name": "time",
+                        "type": "AMAZON.TIME"
+                    }
+                ],
+                "samples": [
+                    "I need to get the {direction} {station} train",
+                    "How do I get the {time} {station} ",
+                    "Can I make the {time} {station} train going {direction}",
+                    "How should I make the {time} {direction} at {station}",
+                    "Will I make the {station} train going {direction} at {time}",
+                    "Will I catch the {direction} {station} train at {time}"
+                ]
+            }
+        ],
+        "types": [
+            {
+                "name": "direction",
+                "values": [
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "Southbound",
+                            "synonyms": []
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "Northbound",
+                            "synonyms": [
+                                "North",
+                                "NY Penn",
+                                "Penn station"
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "station",
+                "values": [
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "Coach",
+                            "synonyms": [
+                                "New Brunswick Downtown Bus Stop",
+                                "Coach Bus at New Brunswick",
+                                "New Brunswick Coach Bus",
+                                "Bus"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "New Brunswick",
+                            "synonyms": [
+                                "Albany Street",
+                                "George Street",
+                                "New Brunswick train"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "Edison",
+                            "synonyms": [
+                                "Plainfield station",
+                                "Edison station"
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "dialog": {
+        "intents": [
+            {
+                "name": "RecommendationIntent",
+                "confirmationRequired": false,
+                "prompts": {},
+                "slots": [
+                    {
+                        "name": "direction",
+                        "type": "direction",
+                        "confirmationRequired": false,
+                        "elicitationRequired": true,
+                        "prompts": {
+                            "elicitation": "Elicit.Slot.1341904537803.201080100442"
+                        }
+                    },
+                    {
+                        "name": "station",
+                        "type": "station",
+                        "confirmationRequired": false,
+                        "elicitationRequired": true,
+                        "prompts": {
+                            "elicitation": "Elicit.Slot.1341904537803.1187999882882"
+                        }
+                    },
+                    {
+                        "name": "time",
+                        "type": "AMAZON.TIME",
+                        "confirmationRequired": false,
+                        "elicitationRequired": false,
+                        "prompts": {}
+                    }
+                ]
+            }
+        ]
+    },
+    "prompts": [
+        {
+            "id": "Elicit.Slot.1341904537803.1187999882882",
+            "variations": [
+                {
+                    "type": "PlainText",
+                    "value": "Which train or bus station you want to take?"
+                },
+                {
+                    "type": "PlainText",
+                    "value": "Which station are you trying to catch?"
+                }
+            ]
+        },
+        {
+            "id": "Elicit.Slot.1341904537803.201080100442",
+            "variations": [
+                {
+                    "type": "PlainText",
+                    "value": "Where you going?"
+                },
+                {
+                    "type": "PlainText",
+                    "value": "Where you headed?"
+                },
+                {
+                    "type": "PlainText",
+                    "value": "In which direction are you travelling?"
+                },
+                {
+                    "type": "PlainText",
+                    "value": "Where is the train headed?"
+                }
+            ]
+        }
+    ]
+}

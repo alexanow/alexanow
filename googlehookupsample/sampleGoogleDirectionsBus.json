@@ -1,0 +1,268 @@
+{
+  "geocoded_waypoints": [
+    {
+      "geocoder_status": "OK",
+      "place_id": "ChIJqf9uCYtZwokRQAfh-_WuFqw",
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "geocoder_status": "OK",
+      "place_id": "ChIJu1PNn6lZwokRHx2_eabv-Bs",
+      "types": [
+        "premise"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "bounds": {
+        "northeast": {
+          "lat": 40.7499347,
+          "lng": -73.9854478
+        },
+        "southwest": {
+          "lat": 40.7208712,
+          "lng": -74.00541509999999
+        }
+      },
+      "copyrights": "Map data ©2016 Google",
+      "legs": [
+        {
+          "arrival_time": {
+            "text": "10:21am",
+            "time_zone": "America/New_York",
+            "value": 1465309308
+          },
+          "departure_time": {
+            "text": "9:53am",
+            "time_zone": "America/New_York",
+            "value": 1465307616
+          },
+          "distance": {
+            "text": "2.5 mi",
+            "value": 3955
+          },
+          "duration": {
+            "text": "28 mins",
+            "value": 1692
+          },
+          "end_address": "7 W 34th St, New York, NY 10001, USA",
+          "end_location": {
+            "lat": 40.7488124,
+            "lng": -73.9854478
+          },
+          "start_address": "300 W Broadway, New York, NY 10013, USA",
+          "start_location": {
+            "lat": 40.7216523,
+            "lng": -74.0044023
+          },
+          "steps": [
+            {
+              "distance": {
+                "text": "335 ft",
+                "value": 102
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 84
+              },
+              "end_location": {
+                "lat": 40.720909,
+                "lng": -74.00511899999999
+              },
+              "html_instructions": "Walk to Av of the Americas/West Broadway",
+              "polyline": {
+                "points": "impwFn~tbM^ZTP^ZdAr@GP"
+              },
+              "start_location": {
+                "lat": 40.7216523,
+                "lng": -74.0044023
+              },
+              "steps": [
+                {
+                  "distance": {
+                    "text": "335 ft",
+                    "value": 102
+                  },
+                  "duration": {
+                    "text": "1 min",
+                    "value": 84
+                  },
+                  "end_location": {
+                    "lat": 40.720909,
+                    "lng": -74.00511899999999
+                  },
+                  "html_instructions": "Head <b>southwest</b> on <b>W Broadway</b> toward <b>Canal St</b><div style=\"font-size:0.9em\">Destination will be on the right</div>",
+                  "polyline": {
+                    "points": "impwFn~tbM^ZTP^ZdAr@GP"
+                  },
+                  "start_location": {
+                    "lat": 40.7216523,
+                    "lng": -74.0044023
+                  },
+                  "travel_mode": "WALKING"
+                }
+              ],
+              "travel_mode": "WALKING"
+            },
+            {
+              "distance": {
+                "text": "2.2 mi",
+                "value": 3610
+              },
+              "duration": {
+                "text": "24 mins",
+                "value": 1440
+              },
+              "end_location": {
+                "lat": 40.749882,
+                "lng": -73.987534
+              },
+              "html_instructions": "Bus towards Ltd Washington Hts - GW Bridge",
+              "polyline": {
+                "points": "uhpwF~bubM@VW@qBHc@G_@^}@KOGcCs@aCu@kBk@aFyAAAg@OsC{@mCw@OG{Bs@mCcAgAa@wDwA]KmCsAmB}@aC{AyBwAyBwAYSmBqAgBiAaC}A[UA?MImAw@_C_Bc@Y{AaAiCcBWQoBqAaC{AsBuAuBuAsBuAuBuAuBsAyByAeCaB[QiBmA{ByAyByA{ByA{ByA{ByA{ByAyByA{B{AcBgA[OcA{@w@e@_@WHY"
+              },
+              "start_location": {
+                "lat": 40.720909,
+                "lng": -74.00511899999999
+              },
+              "transit_details": {
+                "arrival_stop": {
+                  "location": {
+                    "lat": 40.749882,
+                    "lng": -73.987534
+                  },
+                  "name": "Av of the Americas/w 34 St"
+                },
+                "arrival_time": {
+                  "text": "10:19am",
+                  "time_zone": "America/New_York",
+                  "value": 1465309140
+                },
+                "departure_stop": {
+                  "location": {
+                    "lat": 40.720909,
+                    "lng": -74.00511899999999
+                  },
+                  "name": "Av of the Americas/West Broadway"
+                },
+                "departure_time": {
+                  "text": "9:55am",
+                  "time_zone": "America/New_York",
+                  "value": 1465307700
+                },
+                "headsign": "Ltd Washington Hts - GW Bridge",
+                "line": {
+                  "agencies": [
+                    {
+                      "name": "MTA New York City Transit",
+                      "phone": "1 (718) 330-1234",
+                      "url": "http://www.mta.info/"
+                    }
+                  ],
+                  "color": "#e53935",
+                  "name": "George Washington Bridge - South Ferry",
+                  "short_name": "M5",
+                  "text_color": "#ffffff",
+                  "url": "http://web.mta.info/nyct/bus/schedule/manh/m005cur.pdf",
+                  "vehicle": {
+                    "icon": "//maps.gstatic.com/mapfiles/transit/iw2/6/bus2.png",
+                    "name": "Bus",
+                    "type": "BUS"
+                  }
+                },
+                "num_stops": 10
+              },
+              "travel_mode": "TRANSIT"
+            },
+            {
+              "distance": {
+                "text": "0.2 mi",
+                "value": 243
+              },
+              "duration": {
+                "text": "3 mins",
+                "value": 183
+              },
+              "end_location": {
+                "lat": 40.7488124,
+                "lng": -73.9854478
+              },
+              "html_instructions": "Walk to 7 W 34th St, New York, NY 10001, USA",
+              "polyline": {
+                "points": "w}uwF`uqbMIX^T~DoM"
+              },
+              "start_location": {
+                "lat": 40.749882,
+                "lng": -73.987534
+              },
+              "steps": [
+                {
+                  "distance": {
+                    "text": "66 ft",
+                    "value": 20
+                  },
+                  "duration": {
+                    "text": "1 min",
+                    "value": 14
+                  },
+                  "end_location": {
+                    "lat": 40.7497733,
+                    "lng": -73.9877652
+                  },
+                  "html_instructions": "Head <b>southwest</b> on <b>Ave of the Americas</b> toward <b>W 34th St</b>",
+                  "polyline": {
+                    "points": "w}uwF`uqbMIX^T"
+                  },
+                  "start_location": {
+                    "lat": 40.749882,
+                    "lng": -73.987534
+                  },
+                  "travel_mode": "WALKING"
+                },
+                {
+                  "distance": {
+                    "text": "0.1 mi",
+                    "value": 223
+                  },
+                  "duration": {
+                    "text": "3 mins",
+                    "value": 169
+                  },
+                  "end_location": {
+                    "lat": 40.7488124,
+                    "lng": -73.9854478
+                  },
+                  "html_instructions": "Turn <b>left</b> onto <b>W 34th St</b><div style=\"font-size:0.9em\">Destination will be on the left</div>",
+                  "maneuver": "turn-left",
+                  "polyline": {
+                    "points": "a}uwFpvqbM~DoM"
+                  },
+                  "start_location": {
+                    "lat": 40.7497733,
+                    "lng": -73.9877652
+                  },
+                  "travel_mode": "WALKING"
+                }
+              ],
+              "travel_mode": "WALKING"
+            }
+          ],
+          "traffic_speed_entry": [],
+          "via_waypoint": []
+        }
+      ],
+      "overview_polyline": {
+        "points": "impwFn~tbMzC|BGP@ViCJc@G_@^mASqJuCyT{GmK}DkD_BmB}@aC{AsFoDYSsJoGgNaJom@{`@oNgJuFuDcBgA[OcA{@w@e@_@WHYIX^T~DoM"
+      },
+      "summary": "",
+      "warnings": [
+        "Walking directions are in beta.    Use caution – This route may be missing sidewalks or pedestrian paths."
+      ],
+      "waypoint_order": []
+    }
+  ],
+  "status": "OK"
+}

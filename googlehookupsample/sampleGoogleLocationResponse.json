@@ -1,0 +1,101 @@
+{
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "236",
+          "short_name": "236",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "Inza Street",
+          "short_name": "Inza St",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Highland Park",
+          "short_name": "Highland Park",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Middlesex County",
+          "short_name": "Middlesex County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "New Jersey",
+          "short_name": "NJ",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "08904",
+          "short_name": "08904",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "3112",
+          "short_name": "3112",
+          "types": [
+            "postal_code_suffix"
+          ]
+        }
+      ],
+      "formatted_address": "236 Inza St, Highland Park, NJ 08904, USA",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 40.5005732,
+            "lng": -74.4163855
+          },
+          "southwest": {
+            "lat": 40.5005714,
+            "lng": -74.4164042
+          }
+        },
+        "location": {
+          "lat": 40.5005714,
+          "lng": -74.4164042
+        },
+        "location_type": "RANGE_INTERPOLATED",
+        "viewport": {
+          "northeast": {
+            "lat": 40.5019212802915,
+            "lng": -74.41504586970849
+          },
+          "southwest": {
+            "lat": 40.4992233197085,
+            "lng": -74.4177438302915
+          }
+        }
+      },
+      "place_id": "EikyMzYgSW56YSBTdCwgSGlnaGxhbmQgUGFyaywgTkogMDg5MDQsIFVTQQ",
+      "types": [
+        "street_address"
+      ]
+    }
+  ],
+  "status": "OK"
+}

@@ -86,19 +86,105 @@
         "slots": [
           {
             "name": "direction",
-            "type": "direction"
+            "type": "direction",
+            "samples": [
+              "{direction}",
+              "I'm headed to {direction}"
+            ]
           },
           {
             "name": "station",
-            "type": "station"
+            "type": "station",
+            "samples": [
+              "{station}",
+              "I'm headed to {station}"
+            ]
           },
           {
             "name": "time",
-            "type": "AMAZON.TIME"
+            "type": "AMAZON.TIME",
+            "samples": [
+              "{time}"
+            ]
           }
         ]
       }
     ],
     "invocationName": "will i catch"
+  },
+  "prompts": [
+    {
+      "id": "Elicit.Intent-RecommendationIntent.IntentSlot-direction",
+      "variations": [
+        {
+          "type": "PlainText",
+          "value": "What direction are you headed?"
+        },
+        {
+          "type": "PlainText",
+          "value": "Where are you headed from {station}"
+        }
+      ]
+    },
+    {
+      "id": "Elicit.Intent-RecommendationIntent.IntentSlot-station",
+      "variations": [
+        {
+          "type": "PlainText",
+          "value": "What station are you headed to"
+        }
+      ]
+    },
+    {
+      "id": "Elicit.Intent-RecommendationIntent.IntentSlot-time",
+      "variations": [
+        {
+          "type": "PlainText",
+          "value": "Are you leaving now?"
+        },
+        {
+          "type": "PlainText",
+          "value": "When are you leaving?"
+        }
+      ]
+    }
+  ],
+  "dialog": {
+    "intents": [
+      {
+        "name": "RecommendationIntent",
+        "confirmationRequired": false,
+        "prompts": {},
+        "slots": [
+          {
+            "name": "direction",
+            "type": "direction",
+            "elicitationRequired": true,
+            "confirmationRequired": false,
+            "prompts": {
+              "elicitation": "Elicit.Intent-RecommendationIntent.IntentSlot-direction"
+            }
+          },
+          {
+            "name": "station",
+            "type": "station",
+            "elicitationRequired": true,
+            "confirmationRequired": false,
+            "prompts": {
+              "elicitation": "Elicit.Intent-RecommendationIntent.IntentSlot-station"
+            }
+          },
+          {
+            "name": "time",
+            "type": "AMAZON.TIME",
+            "elicitationRequired": true,
+            "confirmationRequired": false,
+            "prompts": {
+              "elicitation": "Elicit.Intent-RecommendationIntent.IntentSlot-time"
+            }
+          }
+        ]
+      }
+    ]
   }
 }
